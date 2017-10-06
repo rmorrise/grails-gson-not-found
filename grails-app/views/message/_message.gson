@@ -1,0 +1,9 @@
+import grails.gson.not.found.Message
+
+model {
+    Message message
+}
+
+json {
+    value message.value?.toUpperCase()
+}

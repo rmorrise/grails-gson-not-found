@@ -1,0 +1,9 @@
+import grails.gson.not.found.Test
+
+model {
+    Test test
+}
+
+json {
+    message tmpl.'../message/message'(test.message)
+}

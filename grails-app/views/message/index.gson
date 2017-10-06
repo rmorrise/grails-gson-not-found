@@ -1,0 +1,8 @@
+import grails.gson.not.found.Message
+
+model {
+	Iterable<Message> messageList
+}
+
+json tmpl.message(messageList ?: [])
+

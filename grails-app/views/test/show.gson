@@ -1,0 +1,7 @@
+import grails.gson.not.found.Test
+
+model {
+	Test test
+}
+
+json tmpl.test(test)

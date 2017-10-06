@@ -1,0 +1,8 @@
+import grails.gson.not.found.Test
+
+model {
+	Iterable<Test> testList
+}
+
+json tmpl.test(testList ?: [])
+
